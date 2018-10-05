@@ -9,9 +9,9 @@ public class ListTest {
         LinkedList<Integer> list=new LinkedList<>();
         Class clazz = Class.forName("java.util.LinkedList");
         Method m=clazz.getMethod("add",Object.class);
-        m.invoke(list,"你妈逼");
-        m.invoke(list,"草泥马");
-        m.invoke(list,"你妈死了");
+        m.invoke(list,"你");
+        m.invoke(list,"好");
+        m.invoke(list,"吗");
         System.out.println(list);
     }
 }
